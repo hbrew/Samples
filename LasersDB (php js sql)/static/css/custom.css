@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+div.wrapper{
+	float: inline; /* important */
+	position: relative; /* important(so we can absolutely position the description div */
+	display: inline;
+	width: 800px;
+	height: 300px;
+	clear: both;
+	margin-top: 30px;
+	margin-right: 1%;
+	margin-bottom: 300px;
+	margin-left: 1%;
+}
+div.description{
+	position: absolute; /* absolute position (so we can position it where we want)*/
+	bottom: 1px; /* position will be on bottom */
+	left: 1px;
+	width: 98%;
+	/* styling bellow */
+	background-color: black;
+	font-family: Arial,Helvetica,sans-serif;
+	;
+	font-size: 100%;
+	color: white;
+	opacity: 0.7; /* transparency */
+	filter: alpha(opacity=70); /* IE transparency */
+	visibility: visible;
+}
+p.description_content{
+	padding:10px;
+	margin:0px;
+}
+
+img.landing {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	height: 200px;
+	width: 200px;
+}
+
+img.embedded {
+	margin: 10px;	
+}
+
+table.image {
+	float: right;
+	clear: right;
+	width: 100px;
+	margin: 10px;
+}
+
+td.caption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;	
+}
+
+img.headshot {
+	width: 100px;
+	margin:10px;
+}

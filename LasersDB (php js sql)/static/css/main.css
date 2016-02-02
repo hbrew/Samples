@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/**
+ * Defines the primary styles for the web page.
+ *
+ * This file imports other files to create the base theme. Add your own custom
+ * styles after the import.
+ */
+
+/**
+ * Use styles from LaRC CSS Library.
+ */
+ 
+
+@import url(Nasa2008/page_section_site.css);
+
+/*@import url(overrides.css);*/
+@import url(custom.css);
+
+
+@media all and (min-width:536px) {
+	
+	
+}
+
+@media print {
+	
+	
+}
+
+.input-group-addon {
+	min-width: 100px;
+}
+
+.chosen-results {
+	z-index: 1000000;
+}
+
+.sellmeier-selection {
+	width: 100%;
+	min-width: 400px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.sellmeier-selection > .materials_list {
+	width: 50%;
+}
+.sellmeier-selection > .axis_list {
+	width: 40%;
+}
+.sellmeier-selection > .del {
+	width: 9.8%;
+	float: right;
+	display: none;
+}

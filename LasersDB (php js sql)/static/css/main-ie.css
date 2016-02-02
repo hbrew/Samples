@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/**
+ * Defines the primary styles for the web site that only apply to older versions
+ * of Internet Explorer.
+ *
+ * This style sheet is only necessary if you need to support versions
+ * of Internet Explorer older than version 9. IE versions 8 and older do not 
+ * support media queries for CSS, which are used to adjust styles for different 
+ * screen sizes.
+ *
+ * This style sheet assumes that you have also loaded the normal main.css. In
+ * your HTML, load both styles as follows:
+ *
+ *  <link rel="stylesheet" href="styles/main.css">
+ *  <!--[if (lt IE 9)&(!IEMobile)]>
+ *  <link rel="stylesheet" href="styles/main-ie.css">
+ *  <![endif]-->  
+ *
+ * The HTML above will load main.css for all browsers, but only load main-ie.css
+ * in Internet Explorer 8 or below.
+ *
+ * Generally, this style sheet should contain whatever is in main.css under
+ *   @media all and (min-width:536px)
+ *
+ * @package    ZfTemplate
+ * @subpackage Stylesheets
+ */
+
+
+/**
+ * Use styles from LaRC CSS Library.
+ */
+@import url(Nasa2008/page_section_site-ie.css);
+
+
+/**
+ * Custom styles for IE8 and older.
+ *
+ * In general, anything that you put inside the "large screen" styles from
+ * main.css should also be placed below (but not inside a @media tag).
+ */
+
+ 
